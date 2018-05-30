@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+  <div class="container">
+    <button id="createGame" class="btn btn-primary">Create New Game</button>
+    <div id="buttonContainer"></div>
+
+    <form class="form-group">
+      <input type="text" class="form-control" placeholder="Guess!" />
+      <input type="submit" class="btn btn-success"></input>
+    </form>
+    <div class="row">
+
+      <div class="col-xs-12">
+        <h3>Time Left <span id="time"></span></h3>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div id="letterlistContainer" class="col-xs-12">
+        <h3>Letters</h3>
+        <ul id="letterList"></ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div id="userlistContainer" class="col-xs-6">
+        <h3>Users</h3>
+        <ul id="userList"></ul>
+      </div>
+
+      <div id="wordlistContainer" class="col-xs-6">
+        <h3>Found Words</h3>
+        <ul id="wordList"></ul>
+      </div>
+    </div>
+
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+<script src="./firebaseConfig.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>
+
+
+
+

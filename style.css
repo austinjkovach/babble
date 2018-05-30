@@ -1,0 +1,30 @@
+#createGame, #buttonContainer {
+  margin-top: 15px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+#letterList li {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 10px;
+  font-size: 30px;
+  line-height: 20px;
+}
+
+.form-group {
+  display: none;
+  margin-top: 15px;
+}
+
+.form-group input {
+  margin-top: 15px;
+}
+
+.form-control {
+  max-width: 500px;
+}
